@@ -1,0 +1,137 @@
+#topnav{
+	border-radius: 0;
+	padding-top: 20px;
+	margin: 0;
+	background: transparent;
+
+	/*
+	background-color: #ffffff;
+	opacity: 0;
+	*/
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	text-align: center;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+
+html{
+	height: 100%;
+}
+
+hr{
+	width: 80%;
+	color: rgba(150, 150, 150, 0.2);
+}
+
+body{
+	padding:0px;
+	margin:0px;
+	overflow-x: hidden;
+}
+
+.wrapper {
+	height: 100% !important;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+
+.main {
+	padding:0;
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#homepage{
+	padding-bottom:40px;
+}
+
+/*.logo h1 a{
+	color:white;
+	text-shadow:none;
+	font-family: Lato,sans-serif;
+	padding-left:20px;
+}*/
+
+#headerelements li {
+	min-width: 100px;
+	text-align: center;
+	font-family: Lato,sans-serif;
+	text-transform: uppercase;
+}
+
+#headerelements li a{
+	color: white;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+#headerelements li a:hover{
+	background: transparent;
+}
+
+
+
+/*.logo h1 a{
+	text-decoration: none;
+	color:white;
+}
+.logo h1 {
+	display:inline;
+	padding: 10px 10px 10px 0px;
+	font-size: 30px;
+	margin: auto;
+	float: left;
+	font-family: Lato, sans-serif;
+	font-weight: 100;
+	text-transform: lowercase;
+	text-shadow: rgb(3, 3, 3) 0px 2px 5px;
+	margin-bottom: 0px;
+	margin-left:20px;
+	color: white;
+	font-size: 40px;
+}*/
+
+.navbar-toggle{
+    position:relative;
+    float:right;
+    padding:9px 10px;
+    margin-top:8px;
+    margin-right:15px;
+    margin-bottom:8px;
+    background-color:transparent;
+    background-image:none;
+    /*border:1px solid #444;*/ 
+    /*border-radius:4px*/
+}
+
+.icon-bar{
+    display:block;
+    width:22px;
+    height:2px;
+    border-radius:1px;
+    border:1px solid #444;
+}
+
+.custom-logo{
+	float: left;
+	position: relative;
+	padding-left: 20px;
+}
+
+.introText{
+	position: relative;
+	margin: auto;
+	margin-top: 200px;
+	text-align: center;
+	font-size: 2.5vw;
+	color: white;
+	font-family: Lato,sans-serif;
+}
