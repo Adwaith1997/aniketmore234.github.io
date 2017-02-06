@@ -51,7 +51,7 @@ body{
 }
 
 #homepage{
-	
+   	padding-bottom: 20px;	
 }
 
 /*.logo h1 a{
@@ -158,3 +158,35 @@ body{
     padding-top: 3vw;
 }
 
+.carousel-inner{
+	padding-bottom: 45px;
+}
+.carousel-indicators li {
+/*  position: relative;
+  bottom: 0px;*/			
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {
+  background-color: #c0c0c0;
+}
+
+#homepage1{
+    box-shadow: 0 10px 2px -6px #c0c0c0;
+    padding-bottom: 25px;
+}
+
+#homepage2{
+	position: relative;
+	margin-top: 20px;
+    box-shadow: 0 10px 2px -6px #c0c0c0;
+    padding-bottom: 25px;
+}
+
+#homepage3{
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 9px;    	
+    box-shadow: 0 10px 2px -6px #c0c0c0;
+}
