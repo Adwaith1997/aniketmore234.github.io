@@ -1,9 +1,13 @@
 #topnav{
 	border-radius: 0;
-	/*background: transparent;
-	*/
-	background-color: #F0FEFF;
-	opacity: 0.95;
+	background: transparent;
+	opacity: 1;
+	/*background-color: #F0FEFF;
+	opacity: 0.95;*/
+	padding-left:50px;
+	padding-right: 100px;
+	padding-top: 30px;
+	padding-bottom: 0px;
 
 	
 }
@@ -14,6 +18,7 @@ body{
 	height: 100%;
 	text-align: center;
 	position: relative;
+	font-family: "Open Sans";
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -48,7 +53,7 @@ body{
 }
 
 #homepage{
-   	padding-bottom: 20px;	
+   		
 }
 
 /*.logo h1 a{
@@ -62,11 +67,11 @@ body{
 	min-width: 100px;
 	text-align: center;
 	font-family: Lato,sans-serif;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 #headerelements li a{
-	color: #337ab7;
+	color: white;
 	font-size: 17px;
 	font-weight: 400;
 }
@@ -105,6 +110,7 @@ body{
     margin-right:15px;
     margin-bottom:8px;
     background-color:transparent;
+    border-color: white;
     background-image:none;
     /*border:1px solid #444;*/ 
     /*border-radius:4px*/
@@ -115,7 +121,7 @@ body{
     width:22px;
     height:2px;
     border-radius:1px;
-    border:1px solid #444;
+    border:1px solid white;
 }
 
 .custom-logo{
@@ -129,10 +135,10 @@ body{
 	position: relative;
 	margin: auto;
 	text-align: center;
-	font-size: 2.75vw;
-	letter-spacing: 2px;
+	font-size: 32px;
+	letter-spacing: 0px;
 	color: white;
-	font-family: Lato,sans-serif;
+	font-family: "Open Sans";
 }
 
 #makeWillBut{
@@ -144,6 +150,18 @@ body{
 	font-size: 1.5vw;
 	padding-left: 3%;
 	padding-right: 3%; 
+}
+
+#GetStartedButt{
+	color: #337ab7;
+	background-color:white;
+	border: none;
+	height: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px; 
 }
 
 .section-title-area .section-title {
@@ -186,14 +204,15 @@ body{
 
 #homepage3{
 	position: relative;
-	margin-top: 20px;
-	margin-bottom: 9px;
-	padding: 40px;    	
+	padding-top:100px; 
+	padding-bottom:80px;
+	padding-left: 40px;
+	padding-right: 40px;    	
     box-shadow: 0 10px 2px -6px #c0c0c0;
 }
 #homepage4{
-	padding-top:40px;
-	padding-bottom:40px;
+	padding-top:100px; 
+	padding-bottom:100px;
 	box-shadow: 0 10px 2px -6px #c0c0c0;
 }
 #homepage5{
@@ -201,8 +220,21 @@ body{
 	padding-bottom:40px;
 	box-shadow: 0 10px 2px -6px #c0c0c0;
 }
+#homepage6{
+	padding-top:82px;
+	padding-bottom:82px;
+	box-shadow: 0 10px 2px -6px #c0c0c0;
+}
 #homepage7{
 	padding-top:40px;
 	padding-bottom:40px;
 	box-shadow: 0 10px 2px -6px #c0c0c0;
+}
+
+.circle{
+	height: 125px;
+	width: 125px;
+	border:1px solid #2A5475;
+	border-radius: 62.5px;
+
 }
