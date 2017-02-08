@@ -40,13 +40,9 @@ body{
 }
 
 #homepage{
-   	/*background-image:url(../images/background-pic.png); 
+   	background-image:url(../images/background-pic.jpg); 
    	background-repeat:no-repeat;
-   	background-position: center;*/
-   	background: url(../images/background-pic.png) no-repeat center, -webkit-linear-gradient(left, #ba53a0, #fff);
-  background: url(../images/background-pic.png) no-repeat center, -o-linear-gradient(right, #ba53a0, #fff);
-  background: url(../images/background-pic.png) no-repeat center, -moz-linear-gradient(right, #ba53a0, #fff);
-  background: url(../images/background-pic.png) no-repeat center, linear-gradient(to right, #ba53a0, #fff);
+   	background-position: center;
 }
 
 #headerelements li {
