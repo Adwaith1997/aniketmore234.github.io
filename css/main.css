@@ -43,10 +43,10 @@ body{
    	/*background-image:url(../images/background-pic.png); 
    	background-repeat:no-repeat;
    	background-position: center;*/
-   	background: url(../images/background-pic.png) no-repeat right top fixed, -webkit-linear-gradient(left, #ba53a0, #fff);
-  background: url(../images/background-pic.png) no-repeat right top fixed, -o-linear-gradient(right, #ba53a0, #fff);
-  background: url(../images/background-pic.png) no-repeat right top fixed, -moz-linear-gradient(right, #ba53a0, #fff);
-  background: url(../images/background-pic.png) no-repeat right top fixed, linear-gradient(to right, #ba53a0, #fff);
+   	background: url(../images/background-pic.png) no-repeat center, -webkit-linear-gradient(left, #ba53a0, #fff);
+  background: url(../images/background-pic.png) no-repeat center, -o-linear-gradient(right, #ba53a0, #fff);
+  background: url(../images/background-pic.png) no-repeat center, -moz-linear-gradient(right, #ba53a0, #fff);
+  background: url(../images/background-pic.png) no-repeat center, linear-gradient(to right, #ba53a0, #fff);
 }
 
 #headerelements li {
